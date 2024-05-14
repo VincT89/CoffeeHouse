@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Prenotazioni Coffe House" />
+    <meta name="keywords" content="Coffe House, prenotazioni" />
+    <meta name="author" content="classe bitcamp" />
+
+    <title>Prenotazioni</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <!--Import font da google se non disponibile sul Sistema Operativo-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Calibri:wght@400;700&display=swap">
+</head>
+<body>
+    <header>
+        <!--Inizio Navbar con immagine-->
+        <nav>
+            <img src="/img/logoCoffe.png" alt="logo" width="150">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="chiSiamo.html">Chi Siamo</a></li>
+                <li><a href="menu.html">Menu'</a></li>
+                <li><a href="Contatti.html">Contatti</a></li>
+                <li><a href="prenotazioni.html">Prenotazioni</a></li>
+                <li><a href="eventi.html">Eventi</a></li>
+                <li><a href="Corsi.html">Corsi</a></li>
+                <li><a href="lavoraConNoi.html">Lavora con noi</a></li>
+            </ul>
+            <h1 class="testoPagina">Prenotazioni</h1>
+        </nav>
+        <!--Fine Navbar con immagine-->
+    </header>
+    <main class="mainMarta">
+        <h1 id="titoloEvento">Assicura il tuo posto al gusto <br /> Prenota il tuo momento di Relax al "Coffee House"</h1>
+        <section id="prenotazione">
+            <form class="form-center">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required />
+
+                <label for="cognome">Cognome:</label>
+                <input type="text" id="cognome" name="cognome" required />
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="phone">Numero di Telefono:</label>
+                <input type="tel" id="phone" name="phone" required />
+
+                <label for="dataOra">Data e Ora dell'Appuntamento:</label>
+                <input type="datetime-local" id="dataOra" name="dataOra" required />
+
+                <label for="nPersone">Numero di Persone:</label>
+                <input type="number" id="nPersone" name="nPersone" min="1" max="8" required />
+
+                <label for="note">Note:</label>
+                <input type="text" id="note" name="note" placeholder="Allergie, Richieste Particolari, Ecc.." />
+
+                <button type="submit">prenota</button>
+            </form>
+        </section>
+        <section id="contatti" class="m-top-50">
+            <div class="containerIndirizzo">
+                <h2>Contatti</h2>
+                <p>Indirizzo: Via Roma, 123 - 00123 Roma</p>
+                <p>Email: info@coffeehousebitcamp.it</p>
+                <p>Telefono: 333-3333333</p>
+            </div>
+            <div class="containerMaps">
+                <img src="/img/maps.png" alt="maps/image" width="600" />
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="formatP">&copy; 2024 Coffee House BitCamp. Tutti i diritti riservati.</p>
+    </footer>
+
+</body>
+</html>

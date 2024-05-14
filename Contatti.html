@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Sezione contatti della Coffeehouse" />
+    <meta name="keywords" content="contatti, mail, telefono, scrivici" />
+    <meta name="author" content="Daniele Schiavoni">
+    <head><link rel="stylesheet" href="src/style.css" /></head>
+    <!--Inizio Navbar con immagine-->
+    <nav>
+        <img src="/img/logoCoffe.png" alt="logo" width="150">
+           <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="chiSiamo.html">Chi Siamo</a></li>
+            <li><a href="menu.html">Menu'</a></li>
+            <li><a href="Contatti.html">Contatti</a></li>
+            <li><a href="prenotazioni.html">Prenotazioni</a></li>
+            <li><a href="eventi.html">Eventi</a></li>
+            <li><a href="Corsi.html">Corsi</a></li>
+            <li><a href="lavoraConNoi.html">Lavora con noi</a></li>
+           </ul>
+           <h1 class="testoPagina">Contatti</h1>
+       </nav>
+       <!--Fine Navbar con immagine-->
+    <title>Contatti</title>
+</head>
+
+<body>
+    <!--Creazione di un div contact per poter dividere la pagina in due colonne-->
+    <div class="contact mainMarta">
+    
+        <section class="contact_out">
+            <p>Vuoi metterti in contatto con noi? Se vuoi prenotare, richiedere informazioni o comunicarci qualcosa, basta chiamare al nostro numero o scriverci. Se invece preferisci essere ricontattato, compila il form a destra.</p>
+            
+            <ol>
+                <li><h4>Orari di apertura:</h4></li>
+                <li>Lunedì-Mercoledì: 7:30-23:30</li>
+                <li>Venerdì-Domenica: 8:30-00.00</li>
+                <li>Giorno di chiusura: Mercoledì</li>
+            </ol>
+        </section>
+
+        <section class="contact_in">
+            
+            <!--Sezione per essere ricontattati-->
+            <h2>Lascia un recapito</h2>
+            <form>
+                
+                <input type="text" name="nome" placeholder="Nome"/><br/>
+                <input type="text" name="cognome" placeholder="Cognome"/><br/>
+                <input type="email" name="email" placeholder="E-mail"/><br/>
+                <input type="number" name="telefono" placeholder="Telefono"/><br/>
+                <input type="datetime-local" name="data"/><br/>
+                <textarea name="Motivo" placeholder="Di cosa hai bisogno?"></textarea><br/>
+                <button type="submit">Ricontattami</button>
+            </form>
+                            
+            
+        </section>
+        <br/>
+        
+        
+    </div>
+    <section id="contatti">
+        <div class="containerIndirizzo">
+            <h2>Contatti</h2>
+            <p>Indirizzo: Via Roma, 123 - 00123 Roma</p>
+            <p>Email: info@coffeehousebitcamp.it</p>
+            <p>Telefono: 333-3333333</p>
+        </div>
+        <div class="containerMaps">
+            <img src="/img/maps.png" alt="maps/image" width="600" />
+        </div>
+    </section>
+</body>
+<footer>
+    
+    <p class="formatP">&copy; 2024 Coffee House BitCamp. Tutti i diritti riservati.</p>
+</footer>
+</html>

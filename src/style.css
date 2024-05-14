@@ -1,0 +1,616 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Calibri;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #202020;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #e8f0e9;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: #202020;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #EDA10F;
+    border-radius: 5px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    color: white;
+    padding: 10px 20px;
+    background-image: url(/img/bg__nav.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    list-style: none;
+    font-weight: 600;
+    font-size: 20px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+}
+
+nav li {
+    cursor: pointer;
+}
+
+nav li a:hover {
+    color: #f1c40f;
+}
+
+nav .testoPagina {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 80px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+
+}
+
+nav img {
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mainMarta {
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    background-color: rgba(172, 115, 57, 0.5);
+    margin: 10px 0;
+
+}
+
+#contatti {
+    height: 300px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerIndirizzo {
+    flex: 3;
+}
+
+.containerMaps img {
+    border-radius: 15px;
+}
+
+.containerMaps {
+    flex: 3;
+}
+
+.containerHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-direction: column;
+    margin: 10px 0px;
+    background-color: rgba(172, 115, 57, 0.5);
+    color: white;
+}
+
+.descrizione {
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.containerHome button {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #f1c40f;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.containerHome button a {
+    text-decoration: none;
+    color: black;
+}
+
+.containerHome button:hover {
+    background-color: #ea8c08;
+}
+
+.immagineDescrizione {
+    width: 90%;
+    border-radius: 10px;
+    height: 600px;
+    background-image: url(/img/caffeDolci.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 30px;
+
+}
+
+.containerChiSiamo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+    margin: 10px 0px;
+    background-color: rgba(172, 115, 57, 0.5);
+    color: white;
+}
+
+.descrizioneChiSiamo {
+    flex: 1;
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.immagineChiSiamo {
+    flex: 1.5;
+    background-image: url(/img/padriFondatori.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.immagineChiSiamo2 {
+    flex: 1.5;
+    background-image: url(/img/fotoTeam.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 45px;
+}
+
+footer p {
+    color: black;
+    text-align: center;
+    padding: 4px 0;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* integrazione Daniele */
+
+form.form-center {
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+form.form-center label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form.form-center input,
+form.form-center select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+form.form-center button {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #f1c40f;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    top: 12%;
+    /*left: 42%;*/
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+form.form-center button:hover {
+    background-color: #ea8c08;
+}
+
+#contatti {
+    height: 300px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #f1c40f;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+button:hover {
+    background-color: #ea8c08;
+}
+
+
+.m-top-50 {
+    margin-top: 50px;
+}
+
+.containerIndirizzo {
+    flex: 3;
+}
+
+.containerMaps img {
+    border-radius: 15px;
+}
+
+.containerMaps {
+    flex: 3;
+}
+
+footer {
+    width: 100%;
+    height: 45px;
+}
+
+footer p {
+    color: black;
+    text-align: center;
+    padding: 4px 0;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+div {
+    text-align: center;
+}
+
+ol {
+    list-style: none;
+}
+
+.contact_out {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.contact_in {
+    text-align: center;
+    border-radius: 20px;
+    width: 400px;
+    margin: 20px auto 20px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+.contact_in button {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #f1c40f;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.contact_in input,
+.contact_in textarea {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    border: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/*Per arrotondare le immagini nel menù*/
+.round {
+    border: 2px solid #333;
+    border-radius: 50%;
+}
+
+.contact,
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+
+.work_under_progress {
+    text-align: center;
+
+}
+
+/* integrazione Marta */
+
+.m-top-50 {
+    margin-top: 50px;
+}
+
+.section-center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.box-transparent {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5%;
+    margin: 10px 0 10px 0;
+    padding: 15px;
+}
+
+/*FINE-MARTA-UTILS*/
+
+/*MARTA-EVENTI*/
+#titoloEvento {
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+#descrizione ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#descrizione h3 {
+    margin-top: 0;
+}
+
+#descrizione img {
+    border-radius: 5%;
+}
+
+#galleria {
+    margin-top: 10px;
+    padding-top: 15px;
+}
+
+#galleria h2 {
+    margin-bottom: 3px;
+}
+
+#galleria td {
+    padding: 0 15px 30px 15px;
+}
+
+#galleria td img {
+    border-radius: 5%;
+}
+
+
+#prenotaOra button {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #f1c40f;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0px 20px 20px 20px;
+}
+
+#prenotaOra button a {
+    text-decoration: none;
+    color: black;
+}
+
+#prenotaOra button:hover {
+    background-color: #ea8c08;
+}
+
+/*FINE-MARTA-EVENTI*/
+
+/*MARTA-PRENOTAZIONI*/
+form.form-center {
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+form.form-center label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form.form-center input,
+form.form-center select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form.form-center button {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #f1c40f;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    top: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+form.form-center button:hover {
+    background-color: #ea8c08;
+}
+
+/*FINE-MARTA-PRENOTAZIONI*/
+
+/* integrazione Amadou */
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  section {
+    margin-top: 50px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+    
+  
+  .col {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+  
+  input[type="submit"] {
+    background-color: #FFD700;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3cb45a;
+    color: black;
+    font-weight: bold;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  @media screen and (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+    }
+  
+    p {
+        font-size: 15px;
+    }
+  
+    .col {
+        margin: 10px;
+        padding: 10px;
+    }
+  
+    input {
+        margin: 5px;
+        padding: 5px;
+    }
+  
+    input[type="submit"] {
+        padding: 5px;
+    }
+  
+    label {
+        font-size: 15px;
+    }
+  }

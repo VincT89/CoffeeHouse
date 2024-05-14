@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lavora con noi - coffee house</title>
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+   <!--Navbar con immagine-->
+   <nav>
+    <img src="./img/logoCoffe.png" alt="logo" width="150">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="chiSiamo.html">Chi siamo</a></li>
+        <li><a href="menu.html">Menu'</a></li>
+        <li><a href="Contatti.html">Contatti</a></li>
+        <li><a href="prenotazioni.html">Prenotazioni</a></li>
+        <li><a href="eventi.html">Eventi</a></li>
+        <li><a href="Corsi.html">Corsi</a></li>
+        <li><a href="LavoraConNoi.html">Lavora con noi</a></li>  
+    </ul>
+    <h1 class="testoPagina">Welcome</h1>
+</nav>
+
+<main class="mainMarta">
+    <!-- Init lavora con Noi -->
+    <h1>Lavora con noi</h1>
+    <p> Le persone sono da sempre al centro delle nostre attività.dalle professionalità impegnate <br>
+     nella nostra filiera a chi fa parte della comunità per noi è molto importante. <br>
+     è crediamo nel valore umano e nel potenziale,c'impegniamo a scoprire,formare e far crescere nuovi talenti nella nostra azienda se <br> 
+     sei un amante del caffè o affascinato da questo mondo ,
+     siamo entusiasti all'idea di collaborare con te. </p> 
+   <p>oltre a offrire un prodotto eccellente, desideriamo avere un impatto positivo sulle persone e sul mondo in cui viviamo.</p>
+
+ <section>
+       <div class="container">
+           <div class="col">
+             <!--form action permette al utente mandare i dati al mio db e poi ho create dei label per inserimento dei dati. ho messo tutti i campi obbligatorio al input -->
+               <h2>Invia il tuo curriculum</h2>
+               <form action="LavoraConNoi" method="post" enctype="multipart/form-data">  <!-- ho creato il method post che permette di inserire i dati-->
+               <label for="nome">Nome</label>
+               <input type="text" id="nome" name="nome" required>
+               <label for="cognome">Cognome</label>
+               <input type="text" id="cognome" name="cognome" required>
+               <label for="email">Email</label>
+               <input type="email" id="email" name="email" required>
+               <label for="telefono">Telefono</label>
+               <input type="tel" id="telefono" name="telefono" required>
+               <label for="curriculum">Curriculum</label>
+               <input type="file" id="curriculum" name="curriculum" required>
+               <input type="submit" value="Invia">
+               </form>
+           </div>
+           </div>
+       </div>
+ </section>
+
+ <!-- fine lavora con Noi-->
+</main>
+
+<section id="contatti">
+  <div class="containerIndirizzo">
+      <h2>Contatti</h2>
+      <p>Indirizzo: Via Roma, 123 - 00123 Roma</p>
+      <p>Email: info@coffeehousebitcamp.it</p>
+      <p>Telefono: 333-3333333</p>
+  </div>
+  <div class="containerMaps">
+      <img src="./img/maps.png" alt="maps/image" width="600" />
+  </div>
+</section>
+
+<footer>
+  <p class="formatP">&copy; 2024 Coffee House BitCamp. Tutti i diritti riservati.</p>
+</footer>
+
+</body>
+</html>
